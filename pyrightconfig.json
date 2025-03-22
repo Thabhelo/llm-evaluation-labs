@@ -1,0 +1,19 @@
+{
+    "include": [
+        "backend"
+    ],
+    "exclude": [
+        "**/node_modules",
+        "**/__pycache__",
+        "frontend"
+    ],
+    "ignore": [
+        "backend/tests"
+    ],
+    "reportMissingImports": true,
+    "reportMissingTypeStubs": false,
+    "pythonVersion": "3.11",
+    "pythonPlatform": "Darwin",
+    "venvPath": ".",
+    "venv": "venv"
+} 
